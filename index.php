@@ -38,16 +38,9 @@
                             <!-- ?= equals to echo -->
                             <td> <?= $pelicula->title; ?> </td>
                             <td> <?= $pelicula->year; ?> </td>
-                            <td> <?= $pelicula->language; ?> </td>
-                            <?php foreach($pelicules['cast'] as $cast){ ?>
-                                <td> <?= $pelicules['cast'] ?></td>
-                            
-                                <?php foreach($pelicules['genres'] as $genres){ ?>
-                                    <td><?= $pelicules['genres'] ?></td>
-                                <?php } ?>
+                            <td> <?php foreach($pelicula->cast as $pelicula->cast){?> <?= $pelicula->cast;?> <?php} ?> </td>
+                            <td> <?php foreach($pelicula->genres as $pelicula->genres){?> <?= $pelicula->genres;?> <?php} ?> </td>
                         </tr>
-                        <?php } 
-                        ?>
                     <?php } ?>
                 </tbody>
             </table>
