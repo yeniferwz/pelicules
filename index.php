@@ -38,8 +38,8 @@
                             <!-- ?= equals to echo -->
                             <td> <?= $pelicula->title; ?> </td>
                             <td> <?= $pelicula->year; ?> </td>
-                            <td> <?php foreach($pelicula->cast as $pelicula->cast){?> <?= $pelicula->cast;?> <?php} ?> </td>
-                            <td> <?php foreach($pelicula->genres as $pelicula->genres){?> <?= $pelicula->genres;?> <?php} ?> </td>
+                            <td> <?php foreach ($pelicula->cast as $pelicula->cast) { ?> <?= $pelicula->cast; ?> <?php } ?></td>
+                            <td> <?php foreach ($pelicula->genres as $pelicula->genres) { ?> <?= $pelicula->genres; ?> <?php } ?></td>
                         </tr>
                     <?php } ?>
                 </tbody>
