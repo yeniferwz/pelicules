@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+
+.navbar_header{
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: right;
+    position: relative;
+}
+
+.titul_logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight: 100;
+    padding: 26px;
+    border-right: 1px solid black;
+}
+
+.link {
+    display: inline-block;
+    padding: 15px 0;
+    margin: 15px 25px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0f0f;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.bar {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 5px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 300ms;
+}
+
+
+.color1 { color: #52796f; }
+.color2 { color: #395B64; }
+
+h1{
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+}
+
+/*paraules del th*/
+#tbstyle th h1{
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+#tbstyle {
+    border-collapse: collapse;
+    overflow:hidden;
+    width: 77%;
+    margin: 0 auto;
+    padding: 0 0 8em 0;
+}
+
+#tbstyle td,
+#tbstyle th {
+    /*colors de les lineas*/
+    border: 1px solid #64DFDF;
+    text-align: center;
+}
+
+#tbstyle tr:nth-child(even) {
+    /* files senars */
+    background-color: #EAF4F4;
+}
+
+#tbstyle tr:hover {
+    background-color: #A5C9CA;
+}
+
+#tbstyle th {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #395B64;
+    color: #E7F6F2;
+}
+
+body{
+    font-family: monospace;
+    font-weight: 500;
+    font-size: medium;
+    line-height: 1.42em;
+}

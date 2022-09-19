@@ -10,6 +10,22 @@
 </head>
 
 <body>
+    <div class="navbar_header">
+        <div class="titul_logo">
+        <span class="color1"></span>Catàleg de<span class="color1"></span> <span class="color2">pelicules</pan>
+        </div>
+        <div class="menu">
+        <a href="#" class="link">
+                <div class="title">Pelicules</div>
+                <div class="bar"></div>
+            </a>
+            <a href="#" class="link">
+                <div class="title">Directors</div>
+                <div class="bar"></div>
+            </a>
+        </div>
+    </div>
+
     <?php
         if(file_exists('movies.json')){
             $arxiu_pelis ='movies.json';
@@ -27,6 +43,7 @@
                     <!-- tr stands for TABLE ROW -->
                     <tr>
                         <!-- th stands for TABLE HEADER -->
+                        </br></br>
                         <th><h1>Title</th></h1>
                         <th><h1>Year</th></h1>
                         <th><h1>Cast</th></h1>
